@@ -19,7 +19,7 @@ This repository contains the full source code and sample data for the image encr
 
 - `encryption.ipynb` – Jupyter Notebook for encrypting an image
 - `decryption.ipynb` – Jupyter Notebook for decrypting the encrypted image
-- `key_generator.ipynb` – Generates valid encryption keys (α, β) based on user input
+- `key_generator.ipynb` – Generates valid encryption keys (a, α, β) based on user input
 - `sample_input/test_image.png` – Sample input image of dimensions (m₁=864, n₁=1152)
 - `sample_output/test_encrypted_image.png` – Encrypted output using the sample key
 - `sample_output/test_decrypted_image.png` – Decrypted image using the same key
