@@ -19,6 +19,7 @@ This repository contains the full source code and sample data for the image encr
 
 - `encryption.ipynb` – Jupyter Notebook for encrypting an image
 - `decryption.ipynb` – Jupyter Notebook for decrypting the encrypted image
+- `key_generator.ipynb` – Generates valid encryption keys (α, β) based on user input
 - `sample_input/test_image.png` – Sample input image of dimensions (m₁=864, n₁=1152)
 - `sample_output/test_encrypted_image.png` – Encrypted output using the sample key
 - `sample_output/test_decrypted_image.png` – Decrypted image using the same key
@@ -41,23 +42,22 @@ These values are applied identically in both the encryption and decryption noteb
 
 ## ▶️ How to Run
 
-1. Open either `encryption.ipynb` or `decryption.ipynb` in **Google Colab**.
+1. Open any of the `.ipynb` notebooks (e.g., `encryption.ipynb`) in **Google Colab**.
 2. Upload your test image when prompted.
-3. Enter the key parameters (a, l, α, β) manually.
-4. View and download the resulting encrypted/decrypted image.
+3. If needed, use `key_generator.ipynb` to generate valid random permutations.
+4. Enter the key parameters (a, l, α, β) manually.
+5. View and download the resulting encrypted or decrypted image.
 
 ---
 
 ## 📌 Citation
 
-> This work is part of the manuscript titled *"Enhanced Image Security through Block Permutation and Modular Arithmetic Shuffling"*,  currently **communicated in The Visual Computer** journal.
+> This work is part of the manuscript titled *"Enhanced Image Security through Block Permutation and Modular Arithmetic Shuffling"*, currently **communicated in The Visual Computer** journal.
 > A formal citation will be added here upon acceptance and publication.
 
 ---
 
 ## 🔗 DOI
 
-A DOI will be provided via Zenodo upon publication for permanent referencing.
-
----
+[https://doi.org/10.5281/zenodo.15364339](https://doi.org/10.5281/zenodo.15364339)
 
