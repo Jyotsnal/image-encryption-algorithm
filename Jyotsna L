@@ -1,0 +1,63 @@
+# 🔐 Image Encryption Project
+
+This repository contains the full source code and sample data for the image encryption and decryption algorithm proposed in our paper.
+
+📄 **Associated Paper**: *"Enhanced Image Security through Block Permutation and Modular Arithmetic Shuffling"*, currently **communicated in The Visual Computer** journal.
+
+---
+
+## 🔧 Requirements
+
+- Google Colab (or Python 3.x)
+- numpy
+- matplotlib
+- Pillow (PIL)
+
+---
+
+## 📂 Files Included
+
+- `encryption.ipynb` – Jupyter Notebook for encrypting an image
+- `decryption.ipynb` – Jupyter Notebook for decrypting the encrypted image
+- `sample_input/test_image.png` – Sample input image of dimensions (m₁=864, n₁=1152)
+- `sample_output/test_encrypted_image.png` – Encrypted output using the sample key
+- `sample_output/test_decrypted_image.png` – Decrypted image using the same key
+
+---
+
+## 🔑 Sample Key Parameters
+
+For testing, the following key was used:
+
+- Block size: **l = 4** → block dimension **L = 2⁴ = 16**
+- Integer multiplier: **a = 13**
+- Permutations:
+  - α = (1, 2, 3, ..., 16)
+  - β = (16, 15, ..., 1)
+
+These values are applied identically in both the encryption and decryption notebooks to produce consistent results.
+
+---
+
+## ▶️ How to Run
+
+1. Open either `encryption.ipynb` or `decryption.ipynb` in **Google Colab**.
+2. Upload your test image when prompted.
+3. Enter the key parameters (a, l, α, β) manually.
+4. View and download the resulting encrypted/decrypted image.
+
+---
+
+## 📌 Citation
+
+> This work is part of the manuscript titled *"Enhanced Image Security through Block Permutation and Modular Arithmetic Shuffling"*,  currently **communicated in The Visual Computer** journal.
+> A formal citation will be added here upon acceptance and publication.
+
+---
+
+## 🔗 DOI
+
+A DOI will be provided via Zenodo upon publication for permanent referencing.
+
+---
+
