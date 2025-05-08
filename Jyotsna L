@@ -45,7 +45,7 @@ These values are applied identically in both the encryption and decryption noteb
 1. Open any of the `.ipynb` notebooks (e.g., `encryption.ipynb`) in **Google Colab**.
 2. Upload your test image when prompted.
 3. If needed, use `key_generator.ipynb` to generate valid random permutations.
-4. Enter the key parameters (a, l, α, β) manually.
+4. Enter the key parameters (l, a, α, β) manually.
 5. View and download the resulting encrypted or decrypted image.
 
 ---
